@@ -13,12 +13,12 @@ function App() {
   const [currentProjectImageIndex, setCurrentProjectImageIndex] = useState(0);
 
   const aboutImages = [
-    "/pic 4.jpg",
-    "/pic 3.png",
-    "/pic 5.jpg",
-    "/pic 6.jpg",
-    "/pic 7.jpg",
-    "/pic 8.jpg"
+    "/pic4.jpg",
+    "/pic3.png",
+    "/pic5.jpg",
+    "/pic6.jpg",
+    "/pic7.jpg",
+    "/pic8.jpg"
   ];
 
   const titles = [
@@ -139,15 +139,15 @@ function App() {
       category: "Thermal Management",
       description: "Liquid-cooled cold plate thermal management system for IGBT power electronics",
       tags: ["Thermofluids First Principals", "Thermal Testing", "ANSYS Fluent"],
-      image: "/coldplate render.png",
+      image: "/coldplate-render.png",
       projectImages: [
-        "/ansys sim.png",
+        "/ansys-sim.png",
         "/packaging.png",
-        "/o-ring groove prototypes.png",
-        "/TPI index.png",
-        "/test setup.png"
+        "/o-ring-groove-prototypes.png",
+        "/TPI-index.png",
+        "/test-setup.png"
       ],
-      organizationLogo: "/MACFE - Official Logo.png",
+      organizationLogo: "/MACFE-Official-Logo.png",
       fullDescription: "Designed a custom liquid-cooled cold plate system to manage thermal loads in IGBT power electronics for MAC Formula Electric's inverter, maintaining junction temperatures below critical thresholds while optimizing cooling efficiency.",
       challenges: [
         "Keeping IGBT junction temperature below critical threshold at specified coolant flow rate and inlet temperature",
@@ -173,13 +173,13 @@ function App() {
       category: "Vehicle Dynamics",
       description: "MATLAB-based lap simulation tool to optimize powertrain performance for Formula Electric racing",
       tags: ["Vehicle Dynamics", "MATLAB", "Powertrain Modelling"],
-      image: "/motor efficiency map.png",
+      image: "/motor-efficiency-map.png",
       projectImages: [
-        "/motor speed curve.png",
-        "/braking FBD.png",
+        "/motor-speed-curve.png",
+        "/braking-FBD.png",
         "/dyno.jpg"
       ],
-      organizationLogo: "/MACFE - Official Logo.png",
+      organizationLogo: "/MACFE-Official-Logo.png",
       fullDescription: "Developing a comprehensive lap simulation model in MATLAB to predict vehicle performance and optimize powertrain configuration for MAC Formula Electric's competition vehicle.",
       challenges: [
         "Accurately modeling motor efficiency across varying speed and torque conditions",
@@ -202,12 +202,12 @@ function App() {
       category: "Mechanical Design",
       description: "Custom battery pack enclosure for 144s4p, 600V, 6.2kWh pack",
       tags: ["DFMA Principals", "Mechanical Design", "SolidWorks", "Formula FSAE"],
-      image: "/battery pack render.png",
+      image: "/battery-pack-render.png",
       projectImages: [
-        "/pic 9.jpg",
-        "/pic 10.jpg",
-        "/pic 11.jpg",
-        "/pic 12.jpg"
+        "/pic9.jpg",
+        "/pic10.jpg",
+        "/pic11.jpg",
+        "/pic12.jpg"
       ],
       fullDescription: "Designed an enclosure that:",
       overviewList: [
@@ -245,14 +245,14 @@ function App() {
       category: "Harness Design",
       description: "Complete vehicle harness routing in SolidWorks with automated formboard generation",
       tags: ["Harness Design", "Formboard Drawings", "SolidWorks"],
-      image: "/all harnesses.jpg",
+      image: "/all-harnesses.jpg",
       projectImages: [
-        "/harness X.png",
-        "/harness Z.png",
-        "/pic 13.jpg",
-        "/pic 14.jpg",
-        "/pic 15.jpg",
-        "/pic 16.jpg"
+        "/harness-X.png",
+        "/harness-Z.png",
+        "/pic13.jpg",
+        "/pic14.jpg",
+        "/pic15.jpg",
+        "/pic16.jpg"
       ],
       fullDescription: "Designed the complete low-voltage harness system for MAC Formula Electric's vehicle in SolidWorks. By automating connection generation and exporting 1:1 formboard drawings, manufacturing time was reduced by 90% - a first in the team's history.",
       challenges: [
@@ -275,7 +275,7 @@ function App() {
       category: "Academic Work",
       description: "Smaller side projects I developed throughout the course of academic career",
       tags: ["Electromechanical Design", "Designathons"],
-      image: "/robot render.png",
+      image: "/robot-render.png",
       externalLink: "https://james-ensley.notion.site/James-Ensley-ed013f0a72dc4a5da8b32d1e4ab8071d",
       fullDescription: "Portfolio of projects completed during undergraduate mechanical engineering coursework, demonstrating proficiency in design, analysis, and practical engineering skills.",
       challenges: [
@@ -804,7 +804,7 @@ function App() {
               
               <div className="relative rounded-3xl overflow-hidden" style={{ width: '300px', height: '300px' }}>
                 <img 
-                  src="/pic 1.jpg" 
+                  src="/pic1.jpg" 
                   alt="Profile"
                   className="w-full h-full object-cover relative z-10"
                 />
@@ -1036,7 +1036,7 @@ function App() {
                     {(project.title.includes("Battery") || project.title.includes("Wireharness") || project.title.includes("Inverter")) && (
                       <div className="flex items-center gap-2 mb-3">
                         <img 
-                          src="/MACFE - Official Logo.png" 
+                          src="/MACFE-Official-Logo.png" 
                           alt="MAC Formula Electric"
                           className="w-8 h-8 object-contain rounded"
                         />
@@ -1056,7 +1056,7 @@ function App() {
                     {project.title.includes("Thrust Vector") && (
                       <div className="flex items-center gap-2 mb-3">
                         <img 
-                          src="/rocketry logo.png" 
+                          src="/rocketry-logo.png" 
                           alt="McMaster Rocketry Team"
                           className="w-8 h-8 object-contain rounded"
                         />
@@ -1245,7 +1245,7 @@ function App() {
               <div className="bg-slate-900/50 backdrop-blur border border-cyan-500/20 rounded-xl p-6 hover:border-cyan-500/40 transition-all hover:shadow-lg hover:shadow-cyan-500/10">
                 <div className="flex items-start gap-4 mb-3">
                   <div className="flex-shrink-0 w-12 h-12 rounded-lg overflow-hidden">
-                    <img src="/MACFE - Official Logo.png" alt="MAC Formula Electric" className="w-full h-full object-contain" />
+                    <img src="/MACFE-Official-Logo.png" alt="MAC Formula Electric" className="w-full h-full object-contain" />
                   </div>
                   <div className="flex-1">
                     <div className="flex justify-between items-start">
@@ -1351,7 +1351,7 @@ function App() {
               <div className="bg-slate-900/50 backdrop-blur border border-cyan-500/20 rounded-xl p-6 hover:border-cyan-500/40 transition-all hover:shadow-lg hover:shadow-cyan-500/10">
                 <div className="flex items-start gap-4 mb-3">
                   <div className="flex-shrink-0 w-12 h-12 rounded-lg overflow-hidden">
-                    <img src="/rocketry logo.png" alt="McMaster Rocketry Team" className="w-full h-full object-contain" />
+                    <img src="/rocketry-logo.png" alt="McMaster Rocketry Team" className="w-full h-full object-contain" />
                   </div>
                   <div className="flex-1">
                     <div className="flex justify-between items-start">
