@@ -905,9 +905,7 @@ function App() {
                     <p className="text-gray-300 leading-relaxed text-lg">
                       Worked at Enedym part time during the fall term whilst working on my inverter capstone project for MAC Formula Electric, where I designed custom cold plates and integrated complex thermal management systems.
                     </p>
-                    <p className="text-gray-300 leading-relaxed text-lg">
-                      Outside of engineering, I enjoy hiking, running, and climbing.
-                    </p>
+                    
                     <p className="text-gray-300 leading-relaxed text-lg">
                       Outside of engineering, I've recently taken up rock climbing this summer and am looking forward to getting into hiking 
                       and camping to explore the outdoors!
