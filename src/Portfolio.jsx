@@ -903,7 +903,7 @@ function App() {
                       pushing the boundaries of what's possible in student-led automotive engineering.
                     </p>
                     <p className="text-gray-300 leading-relaxed text-lg">
-                      Worked at Enedym part time during the fall term whilst working on my inverter capstone project for MAC Formula Electric, where I designed custom cold plates and integrated complex thermal management systems.
+                      Worked at Enedym part time during the fall term whilst working on my inverter capstone project for MAC Formula Electric, where I am designing a custom cold plate for a fully custom inverter.
                     </p>
                     
                     <p className="text-gray-300 leading-relaxed text-lg">
