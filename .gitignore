@@ -27,4 +27,5 @@ dist-ssr
 .cache
 
 # Large media
-/public/*.mp4
+/public/*.mp4"public/index.html" 
+"public/wrench-icon.svg" 
