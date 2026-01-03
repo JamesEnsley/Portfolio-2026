@@ -350,6 +350,7 @@ function App() {
                   src={selectedProject.image} 
                   alt={selectedProject.title}
                   className="w-full h-[500px] object-cover rounded-2xl shadow-2xl shadow-cyan-500/20"
+                  loading="lazy"
                 />
                 {/* Floating category badge */}
                 <div className="absolute top-6 left-6 z-20 bg-cyan-500/20 backdrop-blur-xl px-6 py-3 rounded-full border-2 border-cyan-400/50">
@@ -431,6 +432,7 @@ function App() {
                                   opacity: currentProjectImageIndex === index ? 1 : 0,
                                   zIndex: currentProjectImageIndex === index ? 1 : 0
                                 }}
+                                loading="lazy"
                               />
                             ))}
                             {/* Overlay gradient on hover */}
@@ -807,6 +809,7 @@ function App() {
                   src="pic1.jpg" 
                   alt="Profile"
                   className="w-full h-full object-cover relative z-10"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -928,6 +931,7 @@ function App() {
                             opacity: currentImageIndex === index ? 1 : 0,
                             zIndex: currentImageIndex === index ? 1 : 0
                           }}
+                          loading="lazy"
                         />
                       ))}
                       {/* Overlay gradient on hover */}
@@ -1023,6 +1027,7 @@ function App() {
                       onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
                       onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
                     <div className="absolute top-4 left-4 flex items-center space-x-2 bg-cyan-500/20 backdrop-blur px-3 py-1.5 rounded-full border border-cyan-400/30">
@@ -1039,6 +1044,7 @@ function App() {
                           src="MACFE-Official-Logo.png" 
                           alt="MAC Formula Electric"
                           className="w-8 h-8 object-contain rounded"
+                          loading="lazy"
                         />
                         <span className="text-sm text-cyan-300 font-medium">MAC Formula Electric</span>
                       </div>
@@ -1059,6 +1065,7 @@ function App() {
                           src="rocketry-logo.png" 
                           alt="McMaster Rocketry Team"
                           className="w-8 h-8 object-contain rounded"
+                          loading="lazy"
                         />
                         <span className="text-sm text-cyan-300 font-medium">McMaster Rocketry Team</span>
                       </div>
@@ -1107,7 +1114,7 @@ function App() {
               <div className="bg-slate-900/50 backdrop-blur border border-cyan-500/20 rounded-xl p-6 hover:border-cyan-500/40 transition-all hover:shadow-lg hover:shadow-cyan-500/10">
                 <div className="flex items-start gap-4 mb-3">
                   <div className="flex-shrink-0 w-12 h-12 rounded-lg overflow-hidden">
-                    <img src="enedym-logo.png" alt="Enedym" className="w-full h-full object-cover" />
+                    <img src="enedym-logo.png" alt="Enedym" className="w-full h-full object-cover" loading="lazy" />
                   </div>
                   <div className="flex-1">
                     <div className="flex justify-between items-start">
@@ -1137,7 +1144,7 @@ function App() {
               <div className="bg-slate-900/50 backdrop-blur border border-cyan-500/20 rounded-xl p-6 hover:border-cyan-500/40 transition-all hover:shadow-lg hover:shadow-cyan-500/10">
                 <div className="flex items-start gap-4 mb-3">
                   <div className="flex-shrink-0 w-12 h-12 rounded-lg overflow-hidden">
-                    <img src="tesla-logo.png" alt="Tesla" className="w-full h-full object-cover" />
+                    <img src="tesla-logo.png" alt="Tesla" className="w-full h-full object-cover" loading="lazy" />
                   </div>
                   <div className="flex-1">
                     <div className="flex justify-between items-start">
@@ -1175,7 +1182,7 @@ function App() {
               <div className="bg-slate-900/50 backdrop-blur border border-cyan-500/20 rounded-xl p-6 hover:border-cyan-500/40 transition-all hover:shadow-lg hover:shadow-cyan-500/10">
                 <div className="flex items-start gap-4 mb-3">
                   <div className="flex-shrink-0 w-12 h-12 rounded-lg overflow-hidden">
-                    <img src="christie-logo.png" alt="Christie Digital" className="w-full h-full object-cover" />
+                    <img src="christie-logo.png" alt="Christie Digital" className="w-full h-full object-cover" loading="lazy" />
                   </div>
                   <div className="flex-1">
                     <div className="flex justify-between items-start">
@@ -1245,7 +1252,7 @@ function App() {
               <div className="bg-slate-900/50 backdrop-blur border border-cyan-500/20 rounded-xl p-6 hover:border-cyan-500/40 transition-all hover:shadow-lg hover:shadow-cyan-500/10">
                 <div className="flex items-start gap-4 mb-3">
                   <div className="flex-shrink-0 w-12 h-12 rounded-lg overflow-hidden">
-                    <img src="MACFE-Official-Logo.png" alt="MAC Formula Electric" className="w-full h-full object-contain" />
+                    <img src="MACFE-Official-Logo.png" alt="MAC Formula Electric" className="w-full h-full object-contain" loading="lazy" />
                   </div>
                   <div className="flex-1">
                     <div className="flex justify-between items-start">
@@ -1351,7 +1358,7 @@ function App() {
               <div className="bg-slate-900/50 backdrop-blur border border-cyan-500/20 rounded-xl p-6 hover:border-cyan-500/40 transition-all hover:shadow-lg hover:shadow-cyan-500/10">
                 <div className="flex items-start gap-4 mb-3">
                   <div className="flex-shrink-0 w-12 h-12 rounded-lg overflow-hidden">
-                    <img src="rocketry-logo.png" alt="McMaster Rocketry Team" className="w-full h-full object-contain" />
+                    <img src="rocketry-logo.png" alt="McMaster Rocketry Team" className="w-full h-full object-contain" loading="lazy" />
                   </div>
                   <div className="flex-1">
                     <div className="flex justify-between items-start">
