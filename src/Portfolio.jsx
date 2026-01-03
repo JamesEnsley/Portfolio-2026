@@ -1136,6 +1136,11 @@ function App() {
                     Making seamless transitions for electric vehicle conversions through integrated design approach
                   </li>
                 </ul>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm">EV Packaging</span>
+                  <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm">Powertrain</span>
+                  <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm">Mechanical Design</span>
+                </div>
               </div>
             </div>
 
@@ -1174,6 +1179,11 @@ function App() {
                     Produced clear, detailed 1:1 harness drawings and assembly instructions for fast-paced builds
                   </li>
                 </ul>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm">Harness Design</span>
+                  <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm">CATIA V6</span>
+                  <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm">Prototyping</span>
+                </div>
               </div>
             </div>
 
@@ -1224,6 +1234,11 @@ function App() {
                     Characterized the thermal resistance of radiators at varying airflow and heat load conditions
                   </li>
                 </ul>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm">Thermal Testing</span>
+                  <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm">Optics</span>
+                  <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm">Data Analysis</span>
+                </div>
               </div>
             </div>
           </div>
