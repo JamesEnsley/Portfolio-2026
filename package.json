@@ -2,6 +2,7 @@
   "name": "james-ensley-portfolio",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://jamesensley.github.io/portfolio-project/",
   "type": "module",
   "scripts": {
     "dev": "vite",
