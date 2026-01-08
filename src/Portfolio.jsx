@@ -388,6 +388,16 @@ function App() {
                     </div>
                     <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur border border-cyan-500/20 rounded-2xl p-8 shadow-xl hover:shadow-cyan-500/10 transition-all">
                       <p className="text-xl text-gray-300 leading-relaxed mb-4">{selectedProject.fullDescription}</p>
+                      {selectedProject.currentlyWorkingOn && selectedProject.currentlyWorkingOn.length > 0 && (
+                        <div className="mt-4">
+                          <h3 className="text-lg font-semibold text-cyan-300 mb-2">Currently working on:</h3>
+                          <ul className="list-disc list-inside text-gray-200">
+                            {selectedProject.currentlyWorkingOn.map((item, idx) => (
+                              <li key={idx}>{item}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                       {selectedProject.overviewList && (
                         <div className="bg-slate-900/30 rounded-lg p-6 border border-cyan-500/10 mt-6">
                           <div className="space-y-6">
