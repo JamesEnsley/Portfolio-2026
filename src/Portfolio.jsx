@@ -149,6 +149,11 @@ function App() {
       ],
       organizationLogo: "MACFE-Official-Logo.png",
       fullDescription: "Designed a custom liquid-cooled cold plate system to manage thermal loads in IGBT power electronics for MAC Formula Electric's inverter, maintaining junction temperatures below critical thresholds while optimizing cooling efficiency.",
+      currentlyWorkingOn: [
+        "Mesh independence study",
+        "Geometry sensitivity analysis",
+        "Thermal resistance characterisation"
+      ],
       challenges: [
         "Keeping IGBT junction temperature below critical threshold at specified coolant flow rate and inlet temperature",
         "Minimizing thermal resistance through optimal TIM selection and cold plate fin geometry",
@@ -165,7 +170,8 @@ function App() {
         "Testing in progress - experimental validation planned for Spring 2025",
         "Cold plate design completed and ready for prototyping",
         "Test infrastructure designed including power supply configuration (30V 150A) and instrumentation plan",
-        "Thermal Performance Index (TPI) framework established to evaluate heat transfer effectiveness vs pressure drop"
+        "Thermal Performance Index (TPI) framework established to evaluate heat transfer effectiveness vs pressure drop",
+        "ANSYS simulations predict junction temperatures below critical limits at target flow rates"
       ]
     },
     {
