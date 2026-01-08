@@ -144,7 +144,7 @@ function App() {
         "ansys-sim.png",
         "packaging.png",
         "o-ring-groove-prototypes.png",
-        "TPI-Index.png",
+        "/TPI-Index.png",
         "test-setup.png"
       ],
       organizationLogo: "MACFE-Official-Logo.png",
